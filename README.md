@@ -1,3 +1,7 @@
+# Go Bang
+This project was completed when I was at grade 11. The following description is my readme at that time.
+
+```
 ————使用说明————
 1.双击run.exe开始
 2.菜单通过数字键控制
@@ -5,3 +9,5 @@
 4.上下左右控制光标，space控制下子
 5.已经开放AI对战
 6.运行后会产生一定的临时文件（*.five），可通过自带的bat文件清除
+```
+
