@@ -1,4 +1,4 @@
-uses crt;
+uses crt,wincrt;
 begin
     Sound(440); delay(150);
     Nosound; delay(50);

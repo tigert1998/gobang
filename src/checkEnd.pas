@@ -51,20 +51,20 @@ begin
 end;
 
 begin
-  assign(output,'Message_checkEnd.five');
-  rewrite(output);
-  assign(input,'chessboard.five');
-  reset(input);
-
-  for i := 1 to 19 do
-  begin
-    for j := 1 to 19 do
-      read(chessboard[i,j]);
-    readln;
-  end;
-  if check(1) then writeln(1)
-  else if check(2) then writeln(2)
-  else writeln(0);
-
-  close(output);
+    assign(output,'Message_checkEnd.five');
+	rewrite(output);
+    assign(input,'chessboard.five');
+	reset(input);
+	
+	for i := 1 to 19 do
+	begin
+	    for j := 1 to 19 do
+		    read(chessboard[i,j]);
+		readln;
+	end;
+	if check(1) then writeln(1)
+	else if check(2) then writeln(2)
+	else writeln(0);
+	
+	close(output);
 end.

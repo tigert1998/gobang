@@ -1,13 +1,23 @@
-# Go Bang
-This project was completed when I was at grade 11. The following description is my readme at that time.
+# Gobang
+
+This project was completed when I was at grade 11.
+The following description is my readme at that time.
 
 ```
-¡ª¡ª¡ª¡ªÊ¹ÓÃËµÃ÷¡ª¡ª¡ª¡ª
-1.Ë«»÷run.exe¿ªÊ¼
-2.²Ëµ¥Í¨¹ıÊı×Ö¼ü¿ØÖÆ
-3.Í¨¹ısetting¸ü¸ÄÉèÖÃ
-4.ÉÏÏÂ×óÓÒ¿ØÖÆ¹â±ê£¬space¿ØÖÆÏÂ×Ó
-5.ÒÑ¾­¿ª·ÅAI¶ÔÕ½
-6.ÔËĞĞºó»á²úÉúÒ»¶¨µÄÁÙÊ±ÎÄ¼ş£¨*.five£©£¬¿ÉÍ¨¹ı×Ô´øµÄbatÎÄ¼şÇå³ı
+â€”â€”â€”â€”ä½¿ç”¨è¯´æ˜â€”â€”â€”â€”
+1.åŒå‡»run.exeå¼€å§‹
+2.èœå•é€šè¿‡æ•°å­—é”®æ§åˆ¶
+3.é€šè¿‡settingæ›´æ”¹è®¾ç½®
+4.ä¸Šä¸‹å·¦å³æ§åˆ¶å…‰æ ‡ï¼Œspaceæ§åˆ¶ä¸‹å­
+5.å·²ç»å¼€æ”¾AIå¯¹æˆ˜
+6.è¿è¡Œåä¼šäº§ç”Ÿä¸€å®šçš„ä¸´æ—¶æ–‡ä»¶ï¼ˆ*.fiveï¼‰ï¼Œå¯é€šè¿‡è‡ªå¸¦çš„batæ–‡ä»¶æ¸…é™¤
 ```
 
+## Build and run
+
+Firstly, you need to run `fpcmkcfg -d "basepath=${PATH_TO_FREE_PASCAL}" -o ./fpc.cfg`
+to make sure free pascal compiler can find the units.
+Secondly, make a `bin` directory in the workspace folder to put the executables.
+Lastly, run `make` to compile the executables.
+
+To use the nice interface and combat with my little gomoku AI, just run `bin/run`.

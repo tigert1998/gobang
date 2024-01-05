@@ -1,4 +1,4 @@
-USES crt;
+USES windows,crt;
 const
     dx : array[1..4] of integer = (0,1,-1,1);
     dy : array[1..4] of integer = (-1,0,-1,-1);
@@ -303,18 +303,18 @@ end;
 {                        ———————— 主程序 ————————                  }
 
 begin
-  assign(chessboard,'chessboard.five');
-  reset(chessboard);
-  assign(input,'Message_AI2_ID.five');
-  reset(input);
-  assign(output,'Message_AI2_position.five');
-  rewrite(output);
+    assign(chessboard,'chessboard.five');
+	reset(chessboard);
+    assign(input,'Message_AI2_ID.five');
+	reset(input);
+    assign(output,'Message_AI2_position.five');
+	rewrite(output);
 
-  scanf;
-  steps;
-  print;
+    scanf;
+	steps;
+	print;
 
-  close(input);
-  close(output);
-  close(chessboard);
+    close(input);
+    close(output);
+    close(chessboard);
 end.
